@@ -1,8 +1,8 @@
-function getRandomHexColor() {
+/*function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
-}
+}*/
 const inputEl = document.querySelector("input");
 const createEl = document.querySelector("[data-create]");
 const destroyEl = document.querySelector("[data-destroy]");
